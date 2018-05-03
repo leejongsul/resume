@@ -28,7 +28,7 @@
 * 상점 기능 API
 * HTTP2 R&D
  
-![서버 구성](/resume/images/z1.png)
+![서버 구성](/images/z1.png)
 
 ### Oh! My Castle
 기간: 2017.09 ~ 2017.10
@@ -41,7 +41,7 @@
 * 클라이언트 내 이벤트를 위해 시간 계산을 위한 Timestamp API
 * IAP 검증(AOS, IOS) API
  
-![서버 구성](/resume/images/castle.png)
+![서버 구성](/images/castle.png)
 
 ### Hompage
 기간: 2017.08 ~ 2017.11
@@ -54,7 +54,7 @@
 * Press kit 운영툴 개발
 * Oh! My Castle 통계 view 개발
   
-![서버 구성](/resume/images/homepage.png)
+![서버 구성](/images/homepage.png)
 
 ## (주)와이피소프트 (폐업)
 기간:
