@@ -1,4 +1,42 @@
 # 경력
+## [(주)유니토엔터테인먼트](http://unito-ent.com/)
+* 기간: 13개월 (18.06.01 ~ 현재)
+* 인원: 게임팀 3 ~ 4명
+
+### [Elemental Guardians](https://play.google.com/store/apps/details?id=com.joywing.elga)
+장르: 수집형 RPG
+
+이전에 일본과 한국에서 오픈 이력이 있는 게임으로 입사 후 서버 프로그래머가 없는 상황에서 서버 인프라 구축을 하면서 게임을 개선 작업을 거쳐 2019.01.02 플레이스토어에 오픈했습니다.
+이 후 라이브 서비스를 하면서 버그 수정과 기능 개선을 하였고, 신규 컨텐츠인 아레나(PVP)를 개발했습니다.
+
+AWS EC2에 Kubernetes Cluster를 구성하여 서버를 운용하였고, 서버 어플리케이션에서 logstash 형식으로 로그를 출력하여 fluent-bit 에서 수집하여 elasticsearch에 저장하고 kibana에서 모니터링 하도록 구성했습니다.
+내부 캐시로 사용하던 hazelcast를 Hibernate 2차 캐시와 분산 서버 캐시로 사용할 수 있도록 구성했습니다.
+
+기술: java 8, spring boot, mariadb, hibernate, hazelcast, docker, aws, kubernetes, elasticsearch, kibana, jenkins
+* Java
+  * Spring boot 1.4.7
+  * Hibernate 5.0.12
+  * Hazelcast 3.11
+  * Netty 4.1.3
+* Firebase 
+  * 인증(Auth)
+  * 메세징(FCM)
+* AWS
+  * EC2
+  * S3
+  * Cloud front
+  * Route 53
+* Kubernetes
+  * fluent-bit
+  * elasticsearch
+  * kibana
+
+담당 업무
+* 게임 서버
+* 채팅 서버
+* 운영 서버
+
+
 ## [(주)시그널앤코](http://signalnco.com/)
 * 기간: 7개월 (17.08.08 ~ 18.03.12)
 * 인원: 개발실 10명 + 기술개발 2명
@@ -57,7 +95,7 @@
 ![서버 구성](/images/homepage.png)
 
 ## (주)와이피소프트 (폐업)
-기간:
+기간: 2016.09. ~ 2016.11.
 메인 언어는 Java를 사용했고 서버 인력은 사수를 포함하여 2명이였습니다.
 사수는 실시간 서버를 담당했고, 저는 전투(실시간)을 제외한 비동기로 처리할 수 있는 웹(API) 서버를 담당했습니다.
 
@@ -67,5 +105,8 @@
 java 8, spring 4, maven, hibernate, mysql
 
 ## [(주)티아이스퀘어](http://tisquare.com/)
+기간: 2011.04.14 ~ 2016.01.13
+
 메인 언어는 Java이며 초반엔 C++, C#도 사용했음.
+
 ### 겁나 많아서 나열해야함
